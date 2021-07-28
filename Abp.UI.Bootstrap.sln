@@ -1,0 +1,84 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31424.327
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{66C6D78B-CFAC-4633-A703-74C250683390}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{F5CC00E9-03CC-4C42-B77E-8D55061A48C6}"
+	ProjectSection(SolutionItems) = preProject
+		common.props = common.props
+		configureawait.props = configureawait.props
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Abp.UI.Bootstrap", "src\Abp.UI.Bootstrap\Abp.UI.Bootstrap.csproj", "{A4AB4F0D-D4C0-48CA-B2FF-1A43BF1F3D8E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Abp.UI.Bootstrap.WebAssembly.Theming", "src\Abp.UI.Bootstrap.WebAssembly.Theming\Abp.UI.Bootstrap.WebAssembly.Theming.csproj", "{792955A1-9754-40DE-A2CA-37FE444CC613}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Abp.UI.Bootstrap.Server.Theming", "src\Abp.UI.Bootstrap.Server.Theming\Abp.UI.Bootstrap.Server.Theming.csproj", "{C3DCA17F-7DFD-44EB-A432-7554D0DC9534}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Abp.UI.Bootstrap.BasicTheme", "src\Abp.UI.Bootstrap.BasicTheme\Abp.UI.Bootstrap.BasicTheme.csproj", "{4F1AEABF-2026-4F52-9C7E-16CC78121182}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "demo", "demo", "{74418F1C-10EC-4CF1-A840-7B855128864C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "theme", "theme", "{07683F02-D3EF-4F3C-AD68-B49A2439504E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Abp.UI.Bootstrap.Server.Demo", "test\Abp.UI.Bootstrap.Server.Demo\Abp.UI.Bootstrap.Server.Demo.csproj", "{F50F20D7-443C-4A9C-94F3-4152FA351C76}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Abp.UI.Bootstrap.Server.BasicTheme", "src\Abp.UI.Bootstrap.Server.BasicTheme\Abp.UI.Bootstrap.Server.BasicTheme.csproj", "{DFFA5983-6F64-4875-BAF1-39B7815FBC6E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Abp.UI.Bootstrap.WebAssembly.BasicTheme", "src\Abp.UI.Bootstrap.WebAssembly.BasicTheme\Abp.UI.Bootstrap.WebAssembly.BasicTheme.csproj", "{19F09605-19F4-45DE-8F66-323870A29234}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A4AB4F0D-D4C0-48CA-B2FF-1A43BF1F3D8E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4AB4F0D-D4C0-48CA-B2FF-1A43BF1F3D8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4AB4F0D-D4C0-48CA-B2FF-1A43BF1F3D8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4AB4F0D-D4C0-48CA-B2FF-1A43BF1F3D8E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{792955A1-9754-40DE-A2CA-37FE444CC613}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{792955A1-9754-40DE-A2CA-37FE444CC613}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{792955A1-9754-40DE-A2CA-37FE444CC613}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{792955A1-9754-40DE-A2CA-37FE444CC613}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C3DCA17F-7DFD-44EB-A432-7554D0DC9534}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3DCA17F-7DFD-44EB-A432-7554D0DC9534}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3DCA17F-7DFD-44EB-A432-7554D0DC9534}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3DCA17F-7DFD-44EB-A432-7554D0DC9534}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F1AEABF-2026-4F52-9C7E-16CC78121182}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F1AEABF-2026-4F52-9C7E-16CC78121182}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F1AEABF-2026-4F52-9C7E-16CC78121182}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F1AEABF-2026-4F52-9C7E-16CC78121182}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F50F20D7-443C-4A9C-94F3-4152FA351C76}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F50F20D7-443C-4A9C-94F3-4152FA351C76}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F50F20D7-443C-4A9C-94F3-4152FA351C76}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F50F20D7-443C-4A9C-94F3-4152FA351C76}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DFFA5983-6F64-4875-BAF1-39B7815FBC6E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFFA5983-6F64-4875-BAF1-39B7815FBC6E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DFFA5983-6F64-4875-BAF1-39B7815FBC6E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DFFA5983-6F64-4875-BAF1-39B7815FBC6E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{19F09605-19F4-45DE-8F66-323870A29234}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19F09605-19F4-45DE-8F66-323870A29234}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19F09605-19F4-45DE-8F66-323870A29234}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19F09605-19F4-45DE-8F66-323870A29234}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A4AB4F0D-D4C0-48CA-B2FF-1A43BF1F3D8E} = {66C6D78B-CFAC-4633-A703-74C250683390}
+		{792955A1-9754-40DE-A2CA-37FE444CC613} = {66C6D78B-CFAC-4633-A703-74C250683390}
+		{C3DCA17F-7DFD-44EB-A432-7554D0DC9534} = {66C6D78B-CFAC-4633-A703-74C250683390}
+		{4F1AEABF-2026-4F52-9C7E-16CC78121182} = {07683F02-D3EF-4F3C-AD68-B49A2439504E}
+		{07683F02-D3EF-4F3C-AD68-B49A2439504E} = {66C6D78B-CFAC-4633-A703-74C250683390}
+		{F50F20D7-443C-4A9C-94F3-4152FA351C76} = {74418F1C-10EC-4CF1-A840-7B855128864C}
+		{DFFA5983-6F64-4875-BAF1-39B7815FBC6E} = {07683F02-D3EF-4F3C-AD68-B49A2439504E}
+		{19F09605-19F4-45DE-8F66-323870A29234} = {07683F02-D3EF-4F3C-AD68-B49A2439504E}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {67CF6824-DE44-47A7-8422-EEE9D2933A44}
+	EndGlobalSection
+EndGlobal

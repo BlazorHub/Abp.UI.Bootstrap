@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Razor">
+
+	<Import Project="..\..\configureawait.props" />
+	<Import Project="..\..\common.props" />  
+	  
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+	<ItemGroup>
+		<PackageReference Include="Microsoft.AspNetCore.WebUtilities" Version="2.2.0" />
+	</ItemGroup>
+ 
+
+  <ItemGroup>
+    <ProjectReference Include="..\Abp.UI.Bootstrap.BasicTheme\Abp.UI.Bootstrap.BasicTheme.csproj" />
+    <ProjectReference Include="..\Abp.UI.Bootstrap.Server.Theming\Abp.UI.Bootstrap.Server.Theming.csproj" />
+  </ItemGroup>
+
+</Project>
